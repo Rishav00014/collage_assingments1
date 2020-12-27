@@ -6,6 +6,7 @@ int main(){
 	s=0;
 	printf("Enter first digit \n");
 	scanf("%d",&a);
+	if(a==0) m=0;
 	while(a!=0)
 	{
 		s=s+(a%10);
